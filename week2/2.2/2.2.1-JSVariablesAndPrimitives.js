@@ -21,4 +21,4 @@ let num=5;
 let bool=false;
 // What type of data needs to go in each variable?
 
-console.log("Hello, my name is " + (name) + ", and I am learning " + (lang) + ". I have been practicing for only " +  (num) + " weeks, so my status as a master is: " + (bool) + ".");
+console.log(`Hello, my name is ${name}, and I am learning ${lang}. I have been practicing for only ${num} weeks, so my status as a master is: ${bool};
