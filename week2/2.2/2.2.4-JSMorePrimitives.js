@@ -16,7 +16,8 @@ console.log(typeof d);
 console.log(typeof e);
 // create a variable that references a template literal
 // inside the template literal, use two of the above variables
-let tl= `I don't get these template literals $(a) and $(c)`
+let tl= `I don't get these template literals ${a} and ${c}`;
+console.log(tl);
 // reassign the value of the variable that references "null"
 d= 14;
 // print the value and its type
